@@ -40,9 +40,16 @@ With chromedriver ready to go, all that is left is to import the WebDriver packa
 ## Key Selenium Functionality
 
 - Finding Elements
+   - WebDriver.common.By
 - Sending Input
+   - form.submit()
+   - button.click()
+   - Keys.RETURN
 - Clearing Input
+   - WebElement.clear() `<` Keys.BACK_SPACE
 - Waiting
+  - Implicit waits
+  - Explicit waits (Expected conditions)
 
 ## Additional Resources
 
