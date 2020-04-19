@@ -1,5 +1,6 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.by import By
 '''
  A simple task: getting the "word of the day" from Merriam-Webster's website.
  Searching the page reveals that this class is unique, so it can be used by Selenium to identify the element and get its content like so:
@@ -10,6 +11,6 @@ options.add_argument('--headless')
 # --headless, which tells Chrome to execute the actions without rendering anything.
 driver = webdriver.Chrome(chrome_options=options)
 driver.get('https://www.merriam-webster.com/word-of-the-day')
-element = driver.find_element_by_css_selector('.word-and-pronunciation h1')
+element = driver.find_element(By.CSS_SELECTOR, '.word-and-pronunciation h1')
 print(element.text)
 driver.close()
