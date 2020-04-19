@@ -37,6 +37,13 @@ With chromedriver ready to go, all that is left is to import the WebDriver packa
 
 --headless, tells Chrome to execute the actions without rendering anything.
 
+## Key Selenium Functionality
+
+- Finding Elements
+- Sending Input
+- Clearing Input
+- Waiting
+
 ## Additional Resources
 
 - [Installing ChromeDriver on macOS](https://www.kenst.com/2015/03/installing-chromedriver-on-mac-osx/)
