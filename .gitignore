@@ -2,3 +2,4 @@
 .vscode
 geckodriver.log
 venv
+reports
