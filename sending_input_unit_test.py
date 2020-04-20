@@ -2,7 +2,7 @@ import unittest
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
-
+import HtmlTestRunner
 '''
 Write a simple test by inheriting the TestCase class
 simply import the <unittest> module and define a class that inherits the TestCase class
@@ -37,4 +37,4 @@ class sendInput(unittest.TestCase):
 
 # Below is the piece of code to facilitate command line execution. We’ll need to add it in our test script towards the end. It’ll get the test result details displayed on the console.
 if __name__ == "__main__":
-    unittest.main()
+    unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner())
