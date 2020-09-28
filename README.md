@@ -6,6 +6,14 @@
 - Understand Selenium Python API methods better
 - Improve Unit and Integration Testing skills using Python Unit Test Frameworks like PyTest
 
+## Glance on Selenium Features
+- Open Source Automation Testing tool
+- For Web Based applications
+- supports multiple browsers
+  - Chrome, Firefox, Internet Explorer, Safari
+- can be coded in multiple languages
+  - Java, C#, Python, Javascript, Python, php,Ruby
+
 ## Getting Started
 
 Use pip to install the selenium package (perhaps in a virtual environment):
