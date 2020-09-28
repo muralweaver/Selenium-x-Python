@@ -1,5 +1,11 @@
 # Basic Selenium Python Automation Testing
 
+## Purpose of this repo
+- Gain knowledge on Python Automation using Selenium WebDriver
+- Revist Python basics
+- Understand Selenium Python API methods better
+- Improve Unit and Integration Testing skills using Python Unit Test Frameworks like PyTest
+
 ## Getting Started
 
 Use pip to install the selenium package (perhaps in a virtual environment):
