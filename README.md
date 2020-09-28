@@ -1,4 +1,4 @@
-# Selenium Testing in Python
+# Selenium Python Automation Testing
 
 ## Getting Started
 
